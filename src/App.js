@@ -30,7 +30,7 @@ export default function App() {
       <p />
       <textarea
         style={{ width: "80%" }}
-        rows="9"
+        rows="11"
         placeholder={"Enter text here:"}
         value={input}
         onInput={(e) => setInput(e.target.value)}
@@ -44,7 +44,7 @@ export default function App() {
 
       <textarea
         style={{ width: "80%" }}
-        rows="9"
+        rows="11"
         placeholder="Output here"
         value={output}
       />
